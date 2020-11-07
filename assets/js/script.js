@@ -6,7 +6,7 @@ $("#currentDay").text(today.format("dddd, MMMM Do"));
 
 // Current hour variable using moment.js
 var currentHour = today.hour();
-currentHour = 12;
+
 // WHEN I view the timeblocks for that day
 // THEN each timeblock is color coded to indicate whether it is in the past, present, or future
 for (var i = 9; i <= 17; i++) {
