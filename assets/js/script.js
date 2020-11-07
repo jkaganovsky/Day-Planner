@@ -6,7 +6,7 @@ $("#currentDay").text(today.format("dddd, MMMM Do"));
 
 // Current hour variable using moment.js
 var currentHour = today.hour();
-
+currentHour = 12;
 // WHEN I view the timeblocks for that day
 // THEN each timeblock is color coded to indicate whether it is in the past, present, or future
 for (var i = 9; i <= 17; i++) {
@@ -105,34 +105,34 @@ $(document).ready(function() {
 
 });
 $(document).ready(function() {
-    txtBlock10.val(localStorage.getItem("10"));
+    txtBlock10.val(localStorage.getItem("btn10"));
 
 });
 $(document).ready(function() {
-    txtBlock11.val(localStorage.getItem("11"));
+    txtBlock11.val(localStorage.getItem("btn11"));
 
 });
 $(document).ready(function() {
-    txtBlock12.val(localStorage.getItem("12"));
+    txtBlock12.val(localStorage.getItem("btn12"));
 
 });
 $(document).ready(function() {
-    txtBlock13.val(localStorage.getItem("13"));
+    txtBlock13.val(localStorage.getItem("btn13"));
 
 });
 $(document).ready(function() {
-    txtBlock14.val(localStorage.getItem("14"));
+    txtBlock14.val(localStorage.getItem("btn14"));
 
 });
 $(document).ready(function() {
-    txtBlock15.val(localStorage.getItem("15"));
+    txtBlock15.val(localStorage.getItem("btn15"));
 
 });
 $(document).ready(function() {
-    txtBlock16.val(localStorage.getItem("16"));
+    txtBlock16.val(localStorage.getItem("btn16"));
 
 });
 $(document).ready(function() {
-    txtBlock17.val(localStorage.getItem("17"));
+    txtBlock17.val(localStorage.getItem("btn17"));
 
 });
