@@ -7,7 +7,6 @@ $("#currentDay").text(today.format("dddd, MMMM Do"));
 // Current hour variable using moment.js
 var currentHour = today.hour();
 
-currentHour = 8;
 // WHEN I view the timeblocks for that day
 // THEN each timeblock is color coded to indicate whether it is in the past, present, or future
 for (var i = 9; i <= 17; i++) {
@@ -27,14 +26,10 @@ for (var i = 9; i <= 17; i++) {
 console.log("Present: " + (currentHour === i));
 console.log("Future: " + (currentHour < i));
 console.log("Past: " + (currentHour > i));
-console.log(("#text" + i).toString());
 }
 
 // WHEN I click into a timeblock
 // THEN I can enter an event
-// var txtblk = $("#text" + i).toString()
-
-// console.log(txtblk);
 var txtBlock9  = $("#text9")
 var txtBlock10 = $("#text10")
 var txtBlock11 = $("#text11")
@@ -47,57 +42,57 @@ var txtBlock17 = $("#text17")
 
 // WHEN I click the save button for that timeblock
 // THEN the text for that event is saved in local storage
-var savBtn9  = $("saveBtn")
-var savBtn10 = $("#btn10")
-var savBtn11 = $("#btn11")
-var savBtn12 = $("#btn12")
-var savBtn13 = $("#btn13")
-var savBtn14 = $("#btn14")
-var savBtn15 = $("#btn15")
-var savBtn16 = $("#btn16")
-var savBtn17 = $("#btn17")
+var saveButton9  = $("#9")
+var saveButton10 = $("#10")
+var saveButton11 = $("#11")
+var saveButton12 = $("#12")
+var saveButton13 = $("#13")
+var saveButton14 = $("#14")
+var saveButton15 = $("#15")
+var saveButton16 = $("#16")
+var saveButton17 = $("#17")
 
-savBtn9.on("click", function() {
+saveButton9.on("click", function() {
     localStorage.setItem("btn9", txtBlock9.val());
 
 });
 
-savBtn10.on("click", function() {
+saveButton10.on("click", function() {
     localStorage.setItem("btn10", txtBlock10.val());
 
 });
 
-savBtn11.on("click", function() {
+saveButton11.on("click", function() {
     localStorage.setItem("btn11", txtBlock11.val());
 
 });
 
-savBtn12.on("click", function() {
+saveButton12.on("click", function() {
     localStorage.setItem("btn12", txtBlock12.val());
 
 });
 
-savBtn13.on("click", function() {
+saveButton13.on("click", function() {
     localStorage.setItem("btn13", txtBlock13.val());
 
 });
 
-savBtn14.on("click", function() {
+saveButton14.on("click", function() {
     localStorage.setItem("btn14", txtBlock14.val());
 
 });
 
-savBtn15.on("click", function() {
+saveButton15.on("click", function() {
     localStorage.setItem("btn15", txtBlock15.val());
 
 });
 
-savBtn16.on("click", function() {
+saveButton16.on("click", function() {
     localStorage.setItem("btn16", txtBlock16.val());
 
 });
 
-savBtn17.on("click", function() {
+saveButton17.on("click", function() {
     localStorage.setItem("btn17", txtBlock17.val());
 
 });
