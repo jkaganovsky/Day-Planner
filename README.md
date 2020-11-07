@@ -3,7 +3,7 @@
 ## UW CODING BOOT CAMP HOMEWORK 05
 
 ## Summary
-Created a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+Created a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and provided CSS powered by jQuery with the use of bootstrap and moment.js.
 
 
 ## Links
@@ -12,24 +12,28 @@ Created a simple calendar application that allows the user to save events for ea
 
 
 ## Content and Description:
-1. HTML
+* DEMO
 
-![index](./assets/images/index-html.png)
+![User clicks and enters data on each time block, and saves entry.](./assets/images/work_day_scheduler.gif)
 
-1. CSS
+* HTML
 
-![style](./assets/images/style-css.png)
+![index](./assets/images/index_html.png)
 
-1. JS
 
-![]()
+* JS
+
+![javaScript: Set Moment](./assets/images/script_js_1.png)
+
+![javaScript: Save LocalStorage](./assets/images/script_js_localStorage_1.png)
+
+![javaScript: Get LocalStorage](./assets/images/script_js_localStorage_2.png)
 
 
 ## Credits
 1. https://www.tutorialspoint.com/What-is-the-difference-between-HTML-tags-div-and-span#:~:text=A%20div%20is%20a%20block,of%20text%2C%20images%2C%20etc.&text=The%20element%20is%20used,is%20used%20to%20stylize%20texts.
 1. https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role
 1. https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-save
-1.
 
 ## License
 MIT License
