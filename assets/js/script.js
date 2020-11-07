@@ -42,15 +42,16 @@ var txtBlock17 = $("#text17")
 
 // WHEN I click the save button for that timeblock
 // THEN the text for that event is saved in local storage
-var saveButton9  = $("#9")
-var saveButton10 = $("#10")
-var saveButton11 = $("#11")
-var saveButton12 = $("#12")
-var saveButton13 = $("#13")
-var saveButton14 = $("#14")
-var saveButton15 = $("#15")
-var saveButton16 = $("#16")
-var saveButton17 = $("#17")
+var saveButton9  = $("#btn9")
+var saveButton10 = $("#btn10")
+var saveButton11 = $("#btn11")
+var saveButton12 = $("#btn12")
+var saveButton13 = $("#btn13")
+var saveButton14 = $("#btn14")
+var saveButton15 = $("#btn15")
+var saveButton16 = $("#btn16")
+var saveButton17 = $("#btn17")
+
 
 saveButton9.on("click", function() {
     localStorage.setItem("btn9", txtBlock9.val());
@@ -100,7 +101,7 @@ saveButton17.on("click", function() {
 // WHEN I refresh the page
 // THEN the saved events persists
 $(document).ready(function() {
-    txtBlock9.val(localStorage.getItem("9"));
+    txtBlock9.val(localStorage.getItem("btn9"));
 
 });
 $(document).ready(function() {
