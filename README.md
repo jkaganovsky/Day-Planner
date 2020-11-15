@@ -1,7 +1,5 @@
 # Day-Planner
 
-## UW CODING BOOT CAMP HOMEWORK 05
-
 ## Summary
 Created a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and provided CSS powered by jQuery with the use of bootstrap and moment.js.
 
